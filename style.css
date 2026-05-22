@@ -1,0 +1,103 @@
+/* PAGE */
+
+body {
+    margin: 0;
+    background-color: #f5f3e7;
+    font-family: Georgia, serif;
+    color: #1b1b1b;
+}
+
+/* HERO SECTION */
+
+header {
+    background-color: #0b6623;
+    color: #f4c542;
+
+    text-align: center;
+
+    padding: 100px 20px;
+}
+
+h1 {
+    margin: 0;
+
+    font-size: 58px;
+
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 24px;
+
+    margin-top: 20px;
+
+    color: white;
+}
+
+/* CONTENT SECTIONS */
+
+section {
+
+    background-color: white;
+
+    max-width: 1050px;
+
+    margin: 50px auto;
+
+    padding: 50px;
+
+    border-radius: 14px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+/* SECTION HEADINGS */
+
+h2 {
+
+    color: #0b6623;
+
+    font-size: 34px;
+
+    border-left: 8px solid #f4c542;
+
+    padding-left: 15px;
+
+    margin-bottom: 20px;
+}
+
+/* TEXT */
+
+p {
+
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+/* VISUALISATIONS */
+
+#vis1,
+#vis2,
+#vis3 {
+    margin-top: 35px;
+}
+
+/* FOOTER */
+
+footer {
+
+    background-color: #0b6623;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 30px;
+
+    margin-top: 60px;
+}
+
+footer p {
+    margin: 0;
+}

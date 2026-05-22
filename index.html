@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>The Evolution of Australian Cricket</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+</head>
+
+<body>
+
+    <!-- HERO SECTION -->
+
+    <header>
+
+        <h1>The Evolution of Australian Cricket</h1>
+
+        <p>
+            Exploring Australia's cricket dominance through data visualisation.
+        </p>
+
+    </header>
+
+    <!-- VIS 1 -->
+
+    <section>
+
+        <h2>Australian Test Wins Over Time</h2>
+
+        <p>
+            Australia experienced long periods of dominance in Test cricket,
+            especially during the late 1990s and early 2000s.
+        </p>
+
+        <div id="vis1"></div>
+
+    </section>
+
+    <!-- VIS 2 -->
+
+    <section>
+
+        <h2>Top Australian Run Scorers</h2>
+
+        <p>
+            Australia has produced some of the greatest batsmen in cricket
+            history with remarkable run-scoring records.
+        </p>
+
+        <div id="vis2"></div>
+
+    </section>
+
+    <!-- VIS 3 -->
+
+    <section>
+
+        <h2>Australia's Major Cricket Grounds</h2>
+
+        <p>
+            Cricket is played across Australia, with iconic stadiums located
+            in Melbourne, Sydney, Adelaide and Perth.
+        </p>
+
+        <div id="vis3"></div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            FIT2179 Data Visualisation |
+            2026
+        </p>
+
+    </footer>
+
+    <!-- VEGA EMBED -->
+
+    <script>
+
+        vegaEmbed('#vis1', "specs/vis1.json");
+        vegaEmbed('#vis2', "specs/vis2.json");
+        vegaEmbed('#vis3', "specs/vis3.json");
+
+    </script>
+
+</body>
+
+</html>
